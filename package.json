@@ -1,0 +1,24 @@
+{
+  "name": "retry-promise",
+  "version": "0.0.1",
+  "description": "Small utility function to automatically retry bluebird Promises.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/olalonde/retry-promise.git"
+  },
+  "keywords": [
+    "bluebird",
+    "promise",
+    "retry"
+  ],
+  "author": "Olivier Lalonde <olalonde@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/olalonde/retry-promise/issues"
+  },
+  "homepage": "https://github.com/olalonde/retry-promise"
+}
