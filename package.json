@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/olalonde/retry-promise/issues"
   },
-  "homepage": "https://github.com/olalonde/retry-promise"
+  "homepage": "https://github.com/olalonde/retry-promise",
+  "dependencies": {
+    "bluebird": "^2.9.34"
+  }
 }
