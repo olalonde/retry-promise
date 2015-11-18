@@ -1,5 +1,7 @@
 # retry-promise
 
+[![Build Status](https://travis-ci.org/olalonde/retry-promise.svg)](https://travis-ci.org/olalonde/retry-promise)
+
 Small utility function to automatically retry bluebird Promises.
 
 ## Install
