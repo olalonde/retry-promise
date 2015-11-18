@@ -1,6 +1,6 @@
 {
   "name": "retry-promise",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Small utility function that automatically retries Promises.",
   "main": "./lib",
   "scripts": {
