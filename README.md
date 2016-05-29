@@ -38,15 +38,15 @@ retry({ max: 3, backoff: 1000 }, function (attempt) {
 .catch(next);
 ```
 
-## Calculate Timeout
+## Timeout Calculation
 
 It's a little tricky to know what is the timeout for a given value of `max` and `backoff`.
 
-### Calculate Equation
+### Equation
 
 1. given timeout & backoff, to calc max:
 ```
-max = (2*totalTime/backoff) ^ (1/2) 
+max = (2 * totalTime/backoff) ^ (1/2) 
 ```
 2. given max & backoff, to calc timeout:
 ```
