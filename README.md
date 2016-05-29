@@ -55,7 +55,7 @@ timeout = max * (backoff * max) / 2
 
 ### Quick Sheet
 
-#### Lazy
+#### 1. Lazy
 
 | max |backoff|timeout|
 |:---:|:-----:|:-----:|
@@ -69,7 +69,7 @@ timeout = max * (backoff * max) / 2
 | 8 |	1000 |	32000 |
 | 9 |	1000 |	40500 |
 
-#### Active
+#### 2. Active
 | max |backoff|timeout|
 |:---:|:-----:|:-----:|
 | 1 |	10 |	5 |
@@ -82,7 +82,7 @@ timeout = max * (backoff * max) / 2
 | 8 |	10 |	320 |
 | 9 |	10 |	405 |
 
-#### Blanace
+#### 3. Blanace
 | max |backoff|timeout|
 |:---:|:-----:|:-----:|
 | 1 |	100 |	50 |
