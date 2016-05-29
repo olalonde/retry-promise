@@ -44,11 +44,11 @@ It's a little tricky to know what is the timeout for a given value of `max` and 
 
 ### Equation
 
-1. given timeout & backoff, to calc max:
+1. given timeout & backoff, to calc max:  
   ```
   max = (2 * totalTime/backoff) ^ (1/2) 
   ```
-2. given max & backoff, to calc timeout:
+2. given max & backoff, to calc timeout:  
   ```
   timeout = max * (backoff * max) / 2
   ```
