@@ -21,4 +21,4 @@ const retry = (opts = {}, getPromise) => {
   });
 };
 
-export default retry;
+module.exports = retry.default = retry.retry = retry;
