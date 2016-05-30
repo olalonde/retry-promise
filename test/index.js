@@ -59,4 +59,3 @@ test('retry few times before max', (t) => {
     t.equal(i, 4);
   });
 });
-
